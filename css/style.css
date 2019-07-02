@@ -22,12 +22,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #F75940;
+  color: #F1A8A2;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #F75940;
+    color: #F1A8A2;
     outline: none;
     text-decoration: none !important; }
 
@@ -57,15 +57,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F75940; }
+  background: #F1A8A2; }
 
 ::-moz-selection {
   color: #fff;
-  background: #F75940; }
+  background: #F1A8A2; }
 
 ::selection {
   color: #fff;
-  background: #F75940; }
+  background: #F1A8A2; }
 
 #colorlib-page {
   width: 100%;
@@ -100,13 +100,14 @@ figure {
       -o-transform: translateX(-270px);
       transform: translateX(-270px);
       padding-top: 4em; } }
-  #colorlib-aside #colorlib-logo {
-    text-align: right;
+ #updatedlogo {
+	 text-align: left;
+ margin-bottom: 3em;}
+ #colorlib-aside #colorlib-logo {
+    text-align: left;
     font-weight: 400;
     font-size: 22px;
-    text-transform: uppercase;
     margin-bottom: 3em;
-    display: block;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside #colorlib-logo {
@@ -124,7 +125,7 @@ figure {
         margin-bottom: 5px;
         text-align: center; }
   #colorlib-aside #colorlib-main-menu ul {
-    text-align: right;
+    text-align: left;
     margin: 0;
     padding: 0; }
     @media screen and (max-width: 768px) {
@@ -191,7 +192,7 @@ figure {
     right: 1.5em;
     left: 1.5em;
     font-size: 15px;
-    text-align: right;
+    text-align: left;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
     padding: 0 20px; }
@@ -215,7 +216,7 @@ figure {
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #F75940; }
+            color: #F1A8A2; }
 
 #colorlib-main {
   width: 80%;
@@ -273,7 +274,7 @@ figure {
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #F75940; }
+            border: 2px solid #F1A8A2; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -296,7 +297,7 @@ figure {
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-innerslider-text-inner h2 {
           margin: 0;
           padding: 0;
           color: black;
@@ -714,11 +715,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #F75940; }
+        color: #F1A8A2; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #F75940; }
+        color: #F1A8A2; }
 
 #map {
   width: 100%;
@@ -753,7 +754,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #F75940;
+      color: #F1A8A2;
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -775,7 +776,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #F75940;
+    color: #F1A8A2;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -816,19 +817,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #F75940;
+        background: #F1A8A2;
         color: #fff;
-        border: 1px solid #F75940; }
+        border: 1px solid #F1A8A2; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #F75940;
-      border: 1px solid #F75940 !important; }
+      background: #F1A8A2;
+      border: 1px solid #F1A8A2 !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #F75940;
+        background: #F1A8A2;
         color: #fff;
-        border: 1px solid #F75940 !important; }
+        border: 1px solid #F1A8A2 !important; }
 
 .btn {
   margin-right: 4px;
@@ -858,18 +859,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #F75940;
+  background: #F1A8A2;
   color: #fff;
-  border: 2px solid #F75940; }
+  border: 2px solid #F1A8A2; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #F75940;
-    border: 2px solid #F75940; }
+    color: #F1A8A2;
+    border: 2px solid #F1A8A2; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #F75940;
+      background: #F1A8A2;
       color: #fff; }
 
 .btn-success {
@@ -962,7 +963,7 @@ body.offcanvas {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #F75940; }
+    border-color: #F1A8A2; }
 
 #message {
   height: 130px; }
