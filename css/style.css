@@ -232,7 +232,7 @@ figure {
       width: 100%; } }
 
 #colorlib-hero {
-  min-height: 500px;
+  min-height: 500;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -1108,3 +1108,27 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+	
+---
+bod {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7); }
+  @media screen and (max-width: 992px) {
+    body {
+      font-size: 16px; } }
+	  
+.panel-bod {
+  padding: 1.5em;
+  margin-top: 5px;
+   }
+ 
+ .exp {
+    display: block;
+    text-transform: uppercase;
+ letter-spacing: 5px;
+ font-size: 16px;
+ font-weight: 500;
+ font: #00000;}
