@@ -1132,3 +1132,10 @@ bod {
  font-size: 16px;
  font-weight: 500;
  font: #00000;}
+ 
+ @media screen and (min-width: 2500px) {
+	 .about-img {
+		 width: 80% !important;
+		 height: 600px !important;
+	 }
+ }
