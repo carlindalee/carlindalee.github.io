@@ -42,7 +42,21 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	
+	<style>
+	@media screen and (max-width: 400px) {
+		.slides > li {
+			height: 325px;
+		}
+		aside .js-fullheight {
+			min-height: 400px;
+			margin-bottom: 10px;
+		}
+		
+		
+	}
+	</style>
+	
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -99,7 +113,7 @@
 					   		</div>
 				   		</div>
 				   	</li>
-					<li style="background-image: url(images/igscienceworld.jpg);">
+					<li style="background-size: contain; background-image: url(images/igscienceworld.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
