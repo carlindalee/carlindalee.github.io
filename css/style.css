@@ -722,11 +722,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #F1A8A2; }
+        color: #5a78ff; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #F1A8A2; }
+        color: #5a78ff; }
 
 #map {
   width: 100%;
@@ -761,7 +761,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #F1A8A2;
+      color: #5a78ff;
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -783,7 +783,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #F1A8A2;
+    color: #5a78ff;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -824,17 +824,17 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #F1A8A2;
+        background: #5a78ff;
         color: #fff;
-        border: 1px solid #F1A8A2; }
+        border: 1px solid #5a78ff; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #F1A8A2;
+      background: #5a78ff;
       border: 1px solid #F1A8A2 !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #F1A8A2;
+        background: #5a78ff;
         color: #fff;
         border: 1px solid #F1A8A2 !important; }
 
@@ -866,18 +866,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #F1A8A2;
+  background: #5a78ff;
   color: #fff;
-  border: 2px solid #F1A8A2; }
+  border: 2px solid #5a78ff; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #F1A8A2;
-    border: 2px solid #F1A8A2; }
+    color: #5a78ff;
+    border: 2px solid #5a78ff; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #F1A8A2;
+      background: #5a78ff;
       color: #fff; }
 
 .btn-success {
@@ -970,7 +970,7 @@ body.offcanvas {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #F1A8A2; }
+    border-color: #5a78ff; }
 
 #message {
   height: 130px; }
