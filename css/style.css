@@ -64,15 +64,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F1A8A2; }
+  background: #5a78ff; }
 
 ::-moz-selection {
   color: #fff;
-  background: #F1A8A2; }
+  background: #5a78ff; }
 
 ::selection {
   color: #fff;
-  background: #F1A8A2; }
+  background: #5a78ff; }
 
 #colorlib-page {
   width: 100%;
