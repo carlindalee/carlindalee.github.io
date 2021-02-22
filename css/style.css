@@ -64,15 +64,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #5a78ff; }
+  background: #eceff8; }
 
 ::-moz-selection {
   color: #fff;
-  background: #5a78ff; }
+  background: #eceff8; }
 
 ::selection {
   color: #fff;
-  background: #5a78ff; }
+  background: #eceff8; }
 
 #colorlib-page {
   width: 100%;
@@ -886,7 +886,7 @@ body.offcanvas {
   border: 2px solid #5cb85c; }
   .btn-success:hover, .btn-success:focus, .btn-success:active {
     background: #4cae4c !important;
-    border-color: #4cae4c !important; }
+    border-color: #4cae4c !important; } 
   .btn-success.btn-outline {
     background: transparent;
     color: #5cb85c;
@@ -935,7 +935,7 @@ body.offcanvas {
   .btn-danger.btn-outline {
     background: transparent;
     color: #d9534f;
-    border: 2px solid #d9534f; }
+    border: 2px solid #d9534f; } 
     .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
       background: #d9534f;
       color: #fff; }
