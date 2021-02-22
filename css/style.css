@@ -63,15 +63,15 @@ figure {
         width: 100%; } }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #33333;
   background: #eceff8; }
 
 ::-moz-selection {
-  color: #fff;
+  color: #33333;
   background: #eceff8; }
 
 ::selection {
-  color: #fff;
+  color: #33333;
   background: #eceff8; }
 
 #colorlib-page {
