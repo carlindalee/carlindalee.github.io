@@ -113,7 +113,7 @@
 						
 								<p>In my free time, I love exploring aesthetic restaurants and the city on a nice stroll, with great friends
 								and nice views. Of course, I also enjoy relaxing by listening to music from different cultures including American, Canadian, British, Korean and Hong Kong,
-								and watching documentaries/videos like Betting on Zero, videos from CNBC and CBC Marketplace.</p>
+								and watching documentaries like Betting on Zero, YouTube videos from CNBC, movies like Parasite and series like Lupin.</p>
 								
 						
 							</div>
@@ -548,7 +548,30 @@
 	
 	
 	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
+<script src="js/main.js">
+$(document).ready(function() {
+  $('.logo-carousel').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+</script>
 
 	</body>
 </html>
