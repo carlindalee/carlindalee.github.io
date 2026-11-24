@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=640">
+<title>Be Uninterrupted SMS</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; font: 19px/1.42 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; color: #111; }
+  .bar { position: sticky; top: 0; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 22px 0 16px; background: rgba(247,247,247,.96); border-bottom: 1px solid #e3e3e3; }
+  .avatar { width: 64px; height: 64px; border-radius: 50%; display: block; }
+  .name { font-size: 15px; color: #333; }
+  .thread { padding: 8px 26px 40px; }
+  .stamp { margin: 30px 0 10px; text-align: center; font-size: 14px; color: #8a8a8e; }
+  .stamp b { color: #111; font-weight: 600; }
+  .tag { display: inline-block; margin-left: 6px; padding: 2px 9px; border-radius: 999px; background: #1d3852; color: #fff; font-size: 13px; font-weight: 600; }
+  .bubble { max-width: 82%; padding: 12px 17px; border-radius: 22px; border-bottom-left-radius: 6px; background: #e9e9eb; white-space: pre-line; }
+  .bubble a { color: #0a66d8; text-decoration: underline; overflow-wrap: anywhere; pointer-events: none; }
+  .label { margin: 6px 0 0 6px; font-size: 13px; color: #8a8a8e; }
+</style>
+</head>
+<body>
+<div class="bar"><img class="avatar" src="data:image/png;base64,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" alt="Be Uninterrupted"><div class="name">Be Uninterrupted</div></div>
+<div class="thread">
+
+<p class="stamp"><b>Summit app download</b> · Sept 27, 2026 <span class="tag">34.7% CTR</span></p>
+<div class="bubble">Make sure you've downloaded our app to see who's at our Summit, chat with attendees, and view post-event photos: <a>https://ourapp.me/bu</a>
+
+See you tomorrow!
+
+Jessica, Be Uninterrupted
+
+Text STOP to opt out</div>
+
+<p class="stamp"><b>Executive bootcamp invite</b> · Jan 10, 2026 <span class="tag">30.5% CTR</span></p>
+<div class="bubble">Carly, it's my pleasure to invite you to our 2026 Exec Development Session at Sweat &amp; Tonic, featuring distinguished speakers seen on CTV and BuzzFeed.
+
+As a courtesy, preferred rates conclude tonight. Reserve your place here: <a>https://www.universe.com/events/start-your-2026-year-off-bootcamp-tickets-31J7FT</a>
+
+Jess
+
+Text STOP to opt out</div>
+
+<p class="stamp"><b>Breakfast of Builders follow-up</b> · June 12, 2026 <span class="tag">29.0% CTR</span></p>
+<div class="bubble">Hi Carly, it's Jessica from Be Uninterrupted.
+
+Thank you for joining us at Breakfast of Builders on Tuesday.
+
+If you'd like to continue the conversations sparked around the table, take one minute to complete the form below.
+<a>https://share.hsforms.com/132BgVdhcTb2wWXYwvWTQFQqy87h</a>
+
+We'll help facilitate peer connections with the founders and operators you'd like to stay in touch with.
+
+Text STOP to opt out</div>
+
+<p class="stamp"><b>Member early-bird offer</b> · July 31, 2026 <span class="tag">28.6% CTR</span></p>
+<div class="bubble">Hi Carly, as part of your membership, take $175 off your ticket with code MEMBEREARLY until 11:59 pm ET tonight. After that, your credit returns to $75.
+
+Join Christina Wallace, Laura Brown, and more for an experience at the AGO: <a>https://beuninterrupted.com/busummit2026</a>
+
+Text STOP to opt out</div>
+
+<p class="stamp"><b>BU Circle invite</b> · Nov 5, 2026 <span class="tag">25.0% CTR</span></p>
+<div class="bubble">Hi Carly, I'd love for you to join a BU Circle, curated groups and events with women leaders.
+
+From careers to wealth, there's a Circle for you. We'd be delighted to welcome you as a member.
+
+Learn more: <a>https://beuninterrupted.com/membershipoffer</a>
+
+Jess, CEO of BU
+
+Text STOP to opt out</div>
+
+<p class="stamp"><b>Behavior-triggered follow-up</b> · Nov 5, 2026</p>
+<div class="bubble">Hi Carly, I noticed you clicked on my email last week and downloaded our app. Do you have any questions about Be Uninterrupted? Just reply here, I'm happy to help.
+
+Your 30-day free trial is open until Nov 12. Learn more: <a>https://beuninterrupted.com/membershipoffer</a>
+
+Jess, CEO of BU
+
+Text STOP to opt out</div>
+<p class="label">Sent only to people who clicked an email and downloaded the app</p>
+
+</div>
+</body>
+</html>
